@@ -1,0 +1,32 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@hapi/joi": "^17.1.1",
+    "babel-eslint": "^10.1.0",
+    "bcrypt": "^5.0.0",
+    "eslint-config-prettier": "^4.1.0",
+    "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.11.8",
+    "n": "^7.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.16.0",
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "nodemon   src",
+    "start:dev": "nodemon --watch src/ src/index.js"
+  },
+  "author": "",
+  "description": ""
+}
