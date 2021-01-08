@@ -15,9 +15,13 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'prettier'],
   rules: {
     'arrow-body-style': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'operator-linebreak': 'off',
   },
+  parser: 'babel-eslint',
 };
