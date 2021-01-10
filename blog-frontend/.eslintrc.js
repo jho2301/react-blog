@@ -22,6 +22,7 @@ module.exports = {
     'react/prop-types': 'off',
     'implicit-arrow-linebreak': 'off',
     'operator-linebreak': 'off',
+    'object-curly-newline': 'off',
   },
   parser: 'babel-eslint',
 };
